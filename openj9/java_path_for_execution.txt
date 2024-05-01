@@ -1,0 +1,6 @@
+rohit@rohit-Vostro-3480:~/Desktop/a4_coool/openj9-openjdk-jdk8/build/linux-x86_64-normal-server-release/images/j2sdk-image/bin$ javac -version
+javac 1.8.0_402
+rohit@rohit-Vostro-3480:~/Desktop/a4_coool/openj9-openjdk-jdk8/build/linux-x86_64-normal-server-release/images/j2sdk-image/bin$ 
+
+
+

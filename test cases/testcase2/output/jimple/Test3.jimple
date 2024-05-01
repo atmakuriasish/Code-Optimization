@@ -1,0 +1,28 @@
+class Test3 extends Test1
+{
+
+    void <init>()
+    {
+        Test3 r0;
+
+        r0 := @this: Test3;
+
+        specialinvoke r0.<Test1: void <init>()>();
+
+        return;
+    }
+
+    public void bar()
+    {
+        java.io.PrintStream $r0;
+        Test3 r1;
+
+        r1 := @this: Test3;
+
+        $r0 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $r0.<java.io.PrintStream: void println(java.lang.String)>("Test3 bar");
+
+        return;
+    }
+}
