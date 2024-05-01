@@ -1,0 +1,10 @@
+
+# for making the jimple file to class file
+java -cp sootclasses-trunk-jar-with-dependencies.jar soot.Main -src-prec jimple -f class -process-dir testcase2/output/jimple -d testcase2/output/class -verbose
+
+# compiling test.java 
+javac Test1.java 
+
+# executing the class file with time command
+time ~/Desktop/a4_coool/openj9-openjdk-jdk8/build/linux-x86_64-normal-server-release/images/j2sdk-image/bin/java -Xint Test1
+
